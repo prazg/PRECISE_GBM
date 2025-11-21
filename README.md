@@ -1,4 +1,5 @@
-Predictive Radiomics for Evaluation of Cancer Immune SignaturE in Glioblastoma| PRECISE-GBM
+#Predictive Radiomics for Evaluation of Cancer Immune SignaturE in Glioblastoma| PRECISE-GBM
+PRECISE-GBM_GUI_logo (1).png
 
 Project: PRECISE-GBM - Model training & retraining helpers
 
@@ -68,5 +69,6 @@ See `CONTRIBUTING.md` for guidance on opening issues and PRs.
 License
 
 This project is released under the MIT License — see `LICENSE`.
+
 
 
