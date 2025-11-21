@@ -1,10 +1,10 @@
-#Predictive Radiomics for Evaluation of Cancer Immune SignaturE in Glioblastoma| PRECISE-GBM
+<p align="center"> <b> Predictive Radiomics for Evaluation of Cancer Immune SignaturE in Glioblastoma | PRECISE-GBM </b> </p>
 
 <p align="center">
   <img src="PRECISE-GBM_GUI_logo%20(1).png" alt="PRECISE-GBM Logo">
 </p>
 
-Project: PRECISE-GBM - Model training & retraining helpers
+<b> Project: PRECISE-GBM - Model training & retraining helpers </b>
 
 Overview
 
@@ -73,7 +73,15 @@ License
 
 This project is released under the MIT License — see `LICENSE`.
 
+Citation:
+Please use the following citation when using the repository.
 
+2025
+•	 Ghimire P, Modat M, Booth T. Predictive radiogenomic AI Model for patient stratification in brain tumor immunotherapy trials. Neuro-oncology.  Oct 2025; 26(Suppl_3): iii58–iii59. https://doi.org/10.1093/neuonc/noaf193.188
+•	 Ghimire P, Modat M, Booth T. Radiogenomic AI model predicts immune status in IDH wildtype glioblastoma: PRECISE-GBM study. RCR open. Jan 2025; 3(1): 100234
 
+2024
+•	Ghimire P, Modat M, Booth T. A machine Learning bases predictive radiomics for evaluation of cancer immune signature in glioblastoma: the PRECISE-GBM study. Neuro-Oncology. Oct 2024; 26(suppl_5): v25. 
+•	Ghimire P, Modat M, Booth T. A radiogenomic machine learning based study to identify Predictive Radiomics for Evaluation of Cancer Immune SignaturE in IDHw Glioblastoma. Neuro-Oncology. Oct 2024; 26(suppl_7): vii3
 
 
