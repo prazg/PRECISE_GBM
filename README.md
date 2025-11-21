@@ -78,10 +78,13 @@ Please use the following citation when using the repository.
 
 2025
 •	 Ghimire P, Modat M, Booth T. Predictive radiogenomic AI Model for patient stratification in brain tumor immunotherapy trials. Neuro-oncology.  Oct 2025; 26(Suppl_3): iii58–iii59. https://doi.org/10.1093/neuonc/noaf193.188
+
 •	 Ghimire P, Modat M, Booth T. Radiogenomic AI model predicts immune status in IDH wildtype glioblastoma: PRECISE-GBM study. RCR open. Jan 2025; 3(1): 100234
 
 2024
-•	Ghimire P, Modat M, Booth T. A machine Learning bases predictive radiomics for evaluation of cancer immune signature in glioblastoma: the PRECISE-GBM study. Neuro-Oncology. Oct 2024; 26(suppl_5): v25. 
+•	Ghimire P, Modat M, Booth T. A machine Learning bases predictive radiomics for evaluation of cancer immune signature in glioblastoma: the PRECISE-GBM study. Neuro-Oncology. Oct 2024; 26(suppl_5): v25.
+
 •	Ghimire P, Modat M, Booth T. A radiogenomic machine learning based study to identify Predictive Radiomics for Evaluation of Cancer Immune SignaturE in IDHw Glioblastoma. Neuro-Oncology. Oct 2024; 26(suppl_7): vii3
+
 
 
