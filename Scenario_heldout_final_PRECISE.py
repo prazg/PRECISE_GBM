@@ -106,43 +106,43 @@ def select_features(X, y, alphas=(0.1, 0.01), cv=5, max_iter=10000, n_jobs=-1, r
 # Scenario definitions_LM22
 scenarios_LM22 = {
     1: {
-        'train_radiomics':    r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/neuro_combat_radiomic_CGGA_Rem_CP_TC.csv",
-        'train_immune':       r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Heldout/heldout_Ivy/Cbx_LOOCV_heldout_Ivy_Lm22/CIBERSORTx_Job49_Results.csv",
-        'heldout_radiomics':  r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/Radiomics_LOOCV_test_Ivy.csv",
-        'heldout_immune':     r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Testing/IvyGAP/Test_Ivy_LM22/CIBERSORTx_Job55_Results.csv"
+        'train_radiomics':    r"C:/Users/radiomic_CRCT.csv",
+        'train_immune':       r"C:/Users/heldout_I.csv",
+        'heldout_radiomics':  r"C:/Users/R_test_IR.csv",
+        'heldout_immune':     r"C:/Users/test_II.csv"
     },
     2: {
-        'train_radiomics':    r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/neuro_combat_radiomic_CGGA_Rem_CP_ivy.csv",
-        'train_immune':       r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Heldout/heldout_TCGA/Cbx_heldoutTCGA_Lm22/CIBERSORTx_Job47_Results.csv",
-        'heldout_radiomics':  r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/Radiomics_LOOCV_test_TCGA.csv",
-        'heldout_immune':     r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Testing/TCGA/Cbx_TCGA_Test_LM22/CIBERSORTx_Job53_Results.csv"
+        'train_radiomics':    r"C:/Users/radiomic_CRCI.csv",
+        'train_immune':       r"C:/Users/heldout_T.csv",
+        'heldout_radiomics':  r"C:/Users/R_test_TR.csv",
+        'heldout_immune':     r"C:/Users/test_TI.csv"
     },
     3: {
-        'train_radiomics':    r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/neuro_combat_radiomic_CGGA_Rem_TC_ivy.csv",
-        'train_immune':       r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Heldout/heldout_CPTAC/CBx_LOOCV_heldout_CPTAC_LM22/CIBERSORTx_Job51_Results.csv",
-        'heldout_radiomics':  r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/Radiomics_LOOCV_test_CPTAC.csv",
-        'heldout_immune':     r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Testing/CPTAC/Test_CPTAC_LM22/CIBERSORTx_Job57_Results.csv"
+        'train_radiomics':    r"C:/Users/radiomic_CRTI.csv",
+        'train_immune':       r"C:/Users/heledout_C.csv",
+        'heldout_radiomics':  r"C:/Users/R_test_C.csv",
+        'heldout_immune':     r"C:/Users/test_CI.csv"
     }
 }
 # Scenario definitions_GBM
 scenarios_GBM = {
     1: {
-        'train_radiomics':    r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/neuro_combat_radiomic_CGGA_Rem_CP_TC.csv",
-        'train_immune':       r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Heldout/heldout_Ivy/Cbx_LOOCV_heldout_Ivy_GBM/CIBERSORTx_Job50_Results.csv",
-        'heldout_radiomics':  r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/Radiomics_LOOCV_test_Ivy.csv",
-        'heldout_immune':     r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Testing/IvyGAP/Test_Ivy_GBM/CIBERSORTx_Job56_Results.csv"
+        'train_radiomics':    r"C:/Users/radiomic_CRCT.csv",
+        'train_immune':       r"C:/Users/heldout_I.csv",
+        'heldout_radiomics':  r"C:/Users/R_test_IR.csv",
+        'heldout_immune':     r"C:/Users/test_II.csv"
     },
     2: {
-        'train_radiomics':    r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/neuro_combat_radiomic_CGGA_Rem_CP_ivy.csv",
-        'train_immune':       r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Heldout/heldout_TCGA/Cbx_LOOCV_TCGA_heldout_GBM/CIBERSORTx_Job48_Results.csv",
-        'heldout_radiomics':  r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/Radiomics_LOOCV_test_TCGA.csv",
-        'heldout_immune':     r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Testing/TCGA/TCGA_test_GBM/CIBERSORTx_Job54_Results.csv"
+        'train_radiomics':    r"C:/Users/radiomic_CRCI.csv",
+        'train_immune':       r"C:/Users/heldout_T.csv",
+        'heldout_radiomics':  r"C:/Users/R_test_TR.csv",
+        'heldout_immune':     r"C:/Users/test_TI.csv"
     },
     3: {
-        'train_radiomics':    r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/neuro_combat_radiomic_CGGA_Rem_TC_ivy.csv",
-        'train_immune':       r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Heldout/heldout_CPTAC/Cbx_LOOCV_heldout_CPTAC_GBM/CIBERSORTx_Job52_Results.csv",
-        'heldout_radiomics':  r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/Radiomics_LOOCV_test_CPTAC.csv",
-        'heldout_immune':     r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Testing/CPTAC/Test_CPTAC_GBM/CIBERSORTx_Job58_Results.csv"
+        'train_radiomics':    r"C:/Users/radiomic_CRTI.csv",
+        'train_immune':       r"C:/Users/heledout_C.csv",
+        'heldout_radiomics':  r"C:/Users/R_test_C.csv",
+        'heldout_immune':     r"C:/Users/test_CI.csv"
     }
 }
 
@@ -356,3 +356,4 @@ for sig_name, scenarios in signature_groups.items():
     print(f"✅ {sig_name} group complete: scenarios={list(all_results.keys())}")
 
 print("All signature groups processed.")
+
