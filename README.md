@@ -99,9 +99,12 @@ Please use the following citations when using the repository.
 
 **MBBS MRCSEd MSc PhD'26**
 
+https://huggingface.co/PrazNeuro/PRECISE_GBM
+
 School of Biomedical Engineering & Imaging Sciences, King's College London
 
 Email: [prajwal.1.ghimire@kcl.ac.uk](mailto:prajwal.1.ghimire@kcl.ac.uk)
+
 
 
 
