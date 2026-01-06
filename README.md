@@ -95,9 +95,13 @@ Please use the following citations when using the repository.
 
 **Contact**:
 **Prajwal Ghimire**
+
 **MBBS MRCSEd MSc PhD'26**
+
 School of Biomedical Engineering & Imaging Sciences, King's College London
+
 Email: [prajwal.1.ghimire@kcl.ac.uk](mailto:prajwal.1.ghimire@kcl.ac.uk)
+
 
 
 
