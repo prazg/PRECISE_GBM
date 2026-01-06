@@ -4,14 +4,13 @@
   <img src="PRECISE-GBM_GUI_logo%20(1).png" alt="PRECISE-GBM Logo">
 </p>
 
-[![DOI](https://doi.org/badge/DOI/10.1093/neuonc/noaf193.188.svg)](https://doi.org/10.1093/neuonc/noaf193.188)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains an AI-based training and retraining pipeline for Predictive Radiomics for Evaluation of Cancer Immune SignaturE in Glioblastoma (PRECISE-GBM). It is the multimodal radiogenomic framework that integrates MRI radiomics, genomics, and immune signatures for patient stratification.
 
 <b> Project: PRECISE-GBM - Model training & retraining helpers </b>
 
-Overview
+## 📝 Overview
 
 This repository contains code to train models (Gaussian Mixture labelling + SVM and ensemble classifiers) and to persist all artifacts required to reproduce or retrain models on new data. It includes:
 
@@ -25,7 +24,7 @@ This repo also includes helper files to make it ready for GitHub:
 - `LICENSE` — MIT license
 - GitHub Actions workflow for CI (pytest smoke test)
 
-Getting started (Windows PowerShell)
+## 📝 Getting started (Windows PowerShell)
 
 1) Create and activate a virtual environment
 
@@ -49,7 +48,7 @@ python Scenario_heldout_final_PRECISE.py
 
 The training script will create model files under `models_LM22/` and `models_GBM/` and write metadata JSONs next to each joblib model (selected features, params, cv results) as well as group-level JSON summaries.
 
-Retraining
+## 📝 Retraining
 
 See `README_RETRAIN.md` for detailed CLI and notebook examples. Short example:
 
@@ -60,30 +59,30 @@ python retrain_helper.py \
   --label-col "label"
 ```
 
-Notes
+## 📝Notes
 
 - The training script contains hard-coded absolute paths to data files. Before running on another machine, update the `scenarios_*` file paths or place the datasets in the same paths.
 - Retrain helper auto-detects model type when `--model-type` is omitted by looking for `{prefix}_svm_params.json` or `{prefix}_ens_params.json`.
 - YAML config support for retrain requires PyYAML (`pip install pyyaml`).
 
-CI
+## 📝 CI
 
 A basic GitHub Actions workflow runs a smoke pytest to ensure the retrain helper imports and basic pipeline construction works. It does not run heavy training.
 
-Contributing
+## 📝 Contributing
 
 See `CONTRIBUTING.md` for guidance on opening issues and PRs.
 
-License
+## 📝 License
 
-This project is released under the MIT License — see `LICENSE`.
+This project is released under the MIT License — see `LICENSE`. [MIT License](https://opensource.org/licenses/MIT).
 
-Citation:
+## 📝 Citation
 Please use the following citation when using the repository.
 
 2025
 
-•	 Ghimire P, Modat M, Booth T. Predictive radiogenomic AI Model for patient stratification in brain tumor immunotherapy trials. Neuro-oncology.  Oct 2025; 26(Suppl_3): iii58–iii59. https://doi.org/10.1093/neuonc/noaf193.188
+> **Ghimire P, Modat M, Booth T**. *Predictive radiogenomic AI Model for patient stratification in brain tumor immunotherapy trials. Neuro-oncology.  Oct 2025; 26(Suppl_3): iii58–iii59. doi: https://doi.org/10.1093/neuonc/noaf193.188*
 
 •	 Ghimire P, Modat M, Booth T. Radiogenomic AI model predicts immune status in IDH wildtype glioblastoma: PRECISE-GBM study. RCR open. Jan 2025; 3(1): 100234
 
@@ -92,6 +91,7 @@ Please use the following citation when using the repository.
 •	Ghimire P, Modat M, Booth T. A machine Learning bases predictive radiomics for evaluation of cancer immune signature in glioblastoma: the PRECISE-GBM study. Neuro-Oncology. Oct 2024; 26(suppl_5): v25.
 
 •	Ghimire P, Modat M, Booth T. A radiogenomic machine learning based study to identify Predictive Radiomics for Evaluation of Cancer Immune SignaturE in IDHw Glioblastoma. Neuro-Oncology. Oct 2024; 26(suppl_7): vii3
+
 
 
 
