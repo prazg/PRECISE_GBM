@@ -4,6 +4,7 @@
   <img src="PRECISE-GBM_GUI_logo%20(1).png" alt="PRECISE-GBM Logo">
 </p>
 
+[![DOI](https://doi.org/badge/DOI/10.1093/neuonc/noaf193.188.svg)](https://doi.org/10.1093/neuonc/noaf193.188)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains an AI-based training and retraining pipeline for Predictive Radiomics for Evaluation of Cancer Immune SignaturE in Glioblastoma (PRECISE-GBM). It is the multimodal radiogenomic framework that integrates MRI radiomics, genomics, and immune signatures for patient stratification.
@@ -91,6 +92,7 @@ Please use the following citation when using the repository.
 •	Ghimire P, Modat M, Booth T. A machine Learning bases predictive radiomics for evaluation of cancer immune signature in glioblastoma: the PRECISE-GBM study. Neuro-Oncology. Oct 2024; 26(suppl_5): v25.
 
 •	Ghimire P, Modat M, Booth T. A radiogenomic machine learning based study to identify Predictive Radiomics for Evaluation of Cancer Immune SignaturE in IDHw Glioblastoma. Neuro-Oncology. Oct 2024; 26(suppl_7): vii3
+
 
 
 
