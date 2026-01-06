@@ -93,11 +93,12 @@ Please use the following citations when using the repository.
 > **Ghimire P, Modat M, Booth T**. *A radiogenomic machine learning based study to identify Predictive Radiomics for Evaluation of Cancer Immune SignaturE in IDHw Glioblastoma. Neuro-Oncology. Oct 2024; 26(suppl_7): vii3*
 
 
-Contact
-Prajwal Ghimire
-MBBS MRCSEd MSc PhD'26
+**Contact**:
+**Prajwal Ghimire**
+**MBBS MRCSEd MSc PhD'26**
 School of Biomedical Engineering & Imaging Sciences, King's College London
 Email: [prajwal.1.ghimire@kcl.ac.uk](mailto:prajwal.1.ghimire@kcl.ac.uk)
+
 
 
 
