@@ -8,6 +8,8 @@
 
 This repository contains an AI-based training and retraining pipeline for Predictive Radiomics for Evaluation of Cancer Immune SignaturE in Glioblastoma (PRECISE-GBM). It is the multimodal radiogenomic framework that integrates MRI radiomics, genomics, and immune signatures for patient stratification.
 
+The workflow is being developed into a software. So stay tuned!
+
 <b> Project: PRECISE-GBM - Model training & retraining helpers </b>
 
 ## 📝 Overview
@@ -104,6 +106,7 @@ https://huggingface.co/PrazNeuro/PRECISE_GBM
 School of Biomedical Engineering & Imaging Sciences, King's College London
 
 Email: [prajwal.1.ghimire@kcl.ac.uk](mailto:prajwal.1.ghimire@kcl.ac.uk)
+
 
 
 
