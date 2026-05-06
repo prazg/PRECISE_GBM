@@ -6,7 +6,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains an AI-based training and retraining pipeline for Predictive Radiomics for Evaluation of Cancer Immune SignaturE in Glioblastoma (PRECISE-GBM). It is the multimodal radiogenomic framework that integrates MRI radiomics, genomics, and immune signatures for patient stratification.
+This repository contains an AI-based training and retraining pipeline for Predictive Radiomics for Evaluation of Cancer Immune SignaturE in Glioblastoma (PRECISE-GBM). It is the multimodal radiogenomic framework that integrates MRI radiomics, genomics, and immune signatures for patient stratification. 
+
+The paper is published in Neuro-Oncology Advances. https://doi.org/10.1093/noajnl/vdag115
 
 The workflow is being developed into a software. So stay tuned!
 
