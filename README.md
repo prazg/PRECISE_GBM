@@ -85,7 +85,7 @@ This project is released under the MIT License — see `LICENSE`. [MIT License](
 Please use the following citations when using the repository.
 
 2026
-> **Ghimire P, Li J, Yaou L, Modat M, Booth T**. *Predictive radiomics for evaluation of cancer immune SignaturE in glioblastoma: the PRECISE-GBM study. Published May 2, 2026. https://doi.org/10.1093/noajnl/vdag115*
+> **Ghimire P, Li J, Yaou L, Modat M, Booth T**. *Predictive radiomics for evaluation of cancer immune SignaturE in glioblastoma: the PRECISE-GBM study. Neuro-Oncology Advances. Published May 2, 2026. https://doi.org/10.1093/noajnl/vdag115*
 
 2025
 
