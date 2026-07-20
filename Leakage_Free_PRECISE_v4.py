@@ -1,5 +1,5 @@
 """
-Leakage_Free_PRECISE_v4.py
+PRECISE_v4.py
 
 PRECISE-GBM v4 (nested-CV corrected; picklable selector):
 - Leak-free radiomics-only predictors
@@ -18,11 +18,10 @@ PRECISE-GBM v4 (nested-CV corrected; picklable selector):
     sigmoid recalibrates the combined soft-vote score.
 - Calibrated models evaluated on held-out Ivy/TCGA/CPTAC
 
-Data-path assumptions (confirmed by user; the disjoint one is asserted below):
 - ComBat harmonisation was fit on TRAINING data only; held-out never harmonised.
 - Train and held-out patients are disjoint.
 
-Requires precise_selectors.py on the PYTHONPATH (same folder is easiest).
+Requires precise_selectors.py on the PYTHONPATH .
 
 Outputs per signature group (LM22, GBM):
 - models_v4_{sig}/scenario_{1,2,3}/*_gmm_model.joblib
@@ -113,43 +112,43 @@ def _cv_results_to_serializable(cv_dict):
 # -------------------------
 scenarios_LM22 = {
     1: {
-        'train_radiomics':    r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/neuro_combat_radiomic_CGGA_Rem_CP_TC.csv",
-        'train_immune':       r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Heldout/heldout_Ivy/Cbx_LOOCV_heldout_Ivy_Lm22/CIBERSORTx_Job49_Results.csv",
-        'heldout_radiomics':  r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/Radiomics_LOOCV_test_Ivy.csv",
-        'heldout_immune':     r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Testing/IvyGAP/Test_Ivy_LM22/CIBERSORTx_Job55_Results.csv"
+        'train_radiomics':    r"C:/Users/Radiomics/neuro_combat_radiomic_CGGA_Rem_CP_TC.csv",
+        'train_immune':       r"C:/Users/Genome/Heldout/heldout_Ivy/Cbx_LOOCV_heldout_Ivy_Lm22/CIBERSORTx_Job49_Results.csv",
+        'heldout_radiomics':  r"C:/Users/Radiomics/Radiomics_LOOCV_test_Ivy.csv",
+        'heldout_immune':     r"C:/Users/Genome/Testing/IvyGAP/Test_Ivy_LM22/CIBERSORTx_Job55_Results.csv"
     },
     2: {
-        'train_radiomics':    r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/neuro_combat_radiomic_CGGA_Rem_CP_ivy.csv",
-        'train_immune':       r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Heldout/heldout_TCGA/Cbx_heldoutTCGA_Lm22/CIBERSORTx_Job47_Results.csv",
-        'heldout_radiomics':  r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/Radiomics_LOOCV_test_TCGA.csv",
-        'heldout_immune':     r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Testing/TCGA/Cbx_TCGA_Test_LM22/CIBERSORTx_Job53_Results.csv"
+        'train_radiomics':    r"C:/Users/Radiomics/neuro_combat_radiomic_CGGA_Rem_CP_ivy.csv",
+        'train_immune':       r"C:/Users/Genome/Heldout/heldout_TCGA/Cbx_heldoutTCGA_Lm22/CIBERSORTx_Job47_Results.csv",
+        'heldout_radiomics':  r"C:/Users/Radiomics/Radiomics_LOOCV_test_TCGA.csv",
+        'heldout_immune':     r"C:/Users/Genome/Testing/TCGA/Cbx_TCGA_Test_LM22/CIBERSORTx_Job53_Results.csv"
     },
     3: {
-        'train_radiomics':    r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/neuro_combat_radiomic_CGGA_Rem_TC_ivy.csv",
-        'train_immune':       r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Heldout/heldout_CPTAC/CBx_LOOCV_heldout_CPTAC_LM22/CIBERSORTx_Job51_Results.csv",
-        'heldout_radiomics':  r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/Radiomics_LOOCV_test_CPTAC.csv",
-        'heldout_immune':     r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Testing/CPTAC/Test_CPTAC_LM22/CIBERSORTx_Job57_Results.csv"
+        'train_radiomics':    r"C:/UsersRadiomics/neuro_combat_radiomic_CGGA_Rem_TC_ivy.csv",
+        'train_immune':       r"C:/Users/Genome/Heldout/heldout_CPTAC/CBx_LOOCV_heldout_CPTAC_LM22/CIBERSORTx_Job51_Results.csv",
+        'heldout_radiomics':  r"C:/Users/Radiomics/Radiomics_LOOCV_test_CPTAC.csv",
+        'heldout_immune':     r"C:/Users/Genome/Testing/CPTAC/Test_CPTAC_LM22/CIBERSORTx_Job57_Results.csv"
     }
 }
 
 scenarios_GBM = {
     1: {
-        'train_radiomics':    r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/neuro_combat_radiomic_CGGA_Rem_CP_TC.csv",
-        'train_immune':       r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Heldout/heldout_Ivy/Cbx_LOOCV_heldout_Ivy_GBM/CIBERSORTx_Job50_Results.csv",
-        'heldout_radiomics':  r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/Radiomics_LOOCV_test_Ivy.csv",
-        'heldout_immune':     r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Testing/IvyGAP/Test_Ivy_GBM/CIBERSORTx_Job56_Results.csv"
+        'train_radiomics':    r"C:/Users/Radiomics/neuro_combat_radiomic_CGGA_Rem_CP_TC.csv",
+        'train_immune':       r"C:/Users/Genome/Heldout/heldout_Ivy/Cbx_LOOCV_heldout_Ivy_GBM/CIBERSORTx_Job50_Results.csv",
+        'heldout_radiomics':  r"C:/Users/Radiomics/Radiomics_LOOCV_test_Ivy.csv",
+        'heldout_immune':     r"C:/Users/Genome/Testing/IvyGAP/Test_Ivy_GBM/CIBERSORTx_Job56_Results.csv"
     },
     2: {
-        'train_radiomics':    r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/neuro_combat_radiomic_CGGA_Rem_CP_ivy.csv",
-        'train_immune':       r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Heldout/heldout_TCGA/Cbx_LOOCV_TCGA_heldout_GBM/CIBERSORTx_Job48_Results.csv",
-        'heldout_radiomics':  r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/Radiomics_LOOCV_test_TCGA.csv",
-        'heldout_immune':     r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Testing/TCGA/TCGA_test_GBM/CIBERSORTx_Job54_Results.csv"
+        'train_radiomics':    r"C:/Users/Radiomics/neuro_combat_radiomic_CGGA_Rem_CP_ivy.csv",
+        'train_immune':       r"C:/Users/Genome/Heldout/heldout_TCGA/Cbx_LOOCV_TCGA_heldout_GBM/CIBERSORTx_Job48_Results.csv",
+        'heldout_radiomics':  r"C:/Users/Radiomics/Radiomics_LOOCV_test_TCGA.csv",
+        'heldout_immune':     r"C:/Users/Genome/Testing/TCGA/TCGA_test_GBM/CIBERSORTx_Job54_Results.csv"
     },
     3: {
-        'train_radiomics':    r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/neuro_combat_radiomic_CGGA_Rem_TC_ivy.csv",
-        'train_immune':       r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Heldout/heldout_CPTAC/Cbx_LOOCV_heldout_CPTAC_GBM/CIBERSORTx_Job52_Results.csv",
-        'heldout_radiomics':  r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Radiomics/Radiomics_LOOCV_test_CPTAC.csv",
-        'heldout_immune':     r"C:/Users/pg22/Downloads/PRECISE-GBM/LOOCV_withoutHarm/Genome/Testing/CPTAC/Test_CPTAC_GBM/CIBERSORTx_Job58_Results.csv"
+        'train_radiomics':    r"C:/Users/Radiomics/neuro_combat_radiomic_CGGA_Rem_TC_ivy.csv",
+        'train_immune':       r"C:/Users/Genome/Heldout/heldout_CPTAC/Cbx_LOOCV_heldout_CPTAC_GBM/CIBERSORTx_Job52_Results.csv",
+        'heldout_radiomics':  r"C:/Users/Radiomics/Radiomics_LOOCV_test_CPTAC.csv",
+        'heldout_immune':     r"C:/Users/Genome/Testing/CPTAC/Test_CPTAC_GBM/CIBERSORTx_Job58_Results.csv"
     }
 }
 
